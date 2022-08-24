@@ -19,7 +19,7 @@ function AllData(){
 
     <>
 
-        <table className="table table-striped">
+        <table className="table table-striped text-center">
                 <thead>
                     <tr>
                     <th>Name</th>
