@@ -1,0 +1,8 @@
+.navbar-light {
+    background-color:rgb(165, 212, 248);
+}
+
+.nav-item--selected {
+    background: rgb(151, 209, 243);
+    color: rgb(173,216,230);
+}
