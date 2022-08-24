@@ -23,8 +23,8 @@ function Deposit(){
 
   return (
     <Card
-    txtcolor="blue"
-    header="Deposit"
+    bgcolor="warning"
+    txtcolor="white"
     body= {show? (inUser ? ( 
       <>
       

@@ -23,14 +23,14 @@ function Withdraw(){
 
   return (
     <Card
-    txtcolor="blue"
-    header="Withdraw"
+    bgcolor="info"
+    txtcolor="warning"
     body= {show? (inUser ? ( 
       <>
       
       <h5>{update ? "Balance: " + inUser.user.balance : "Balance: "+ inUser.user.balance}</h5>
       <h6>Withdraw Amount</h6>
-      <input type="number" width="200" id="balance" onChange={handleTextChange} value={value}></input>
+      <input type="number" width="500" id="balance" onChange={handleTextChange} value={value}></input>
       <button type="submit" disabled={ value ?false:true} className="btn btn-light" onClick={handleWithdraw}>Withdraw</button>
       </>
       ) : ("Please Log In")) : ( "Awesome! Balance: $" + inUser.user.balance)}

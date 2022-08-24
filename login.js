@@ -48,8 +48,8 @@ function Login(){
 
   return (
     <Card
-      bgcolor="#BBFFFF"
-      txtcolor="blue"
+      bgcolor="info"
+      txtcolor="warning"
       header="Login"
       status={status}
       body={show ? (  
